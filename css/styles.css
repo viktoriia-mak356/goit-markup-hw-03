@@ -88,11 +88,10 @@ color:#404bbf;
 
 .hero {
 background-color: #2e2f42;
-margin-bottom: 120px;
 }
 
 .hero-wrapper {
-padding: 188px 472px 188px 472px;   
+padding: 188px 472px;   
 }
 
 .hero-title {
@@ -112,6 +111,8 @@ color: #fff;
     color: #FFFFFF;
     background: #4d5ae5;
     cursor: pointer;
+    display: block;
+    margin: 48px auto;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -119,7 +120,11 @@ color: #fff;
 }
 
 .strategy{
+}
 
+.strategy-list {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .strategy-subtitle {
@@ -136,11 +141,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+margin-top: 8px;
 }
 
 
 .team {
 background-color: #f4f4fd;
+padding-top: 124px;
 }
 
 .team-title {
@@ -151,6 +158,9 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
+max-width: 163px;
+margin: 0 auto;
+padding-bottom: 72px;
 }
 
 .team-item {
