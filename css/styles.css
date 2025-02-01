@@ -244,6 +244,7 @@ margin-bottom: 120px;
 
 .port-item {
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .port-title {
@@ -293,6 +294,7 @@ color: #4d5ae5;
 padding-top: 100px;
 padding-left: 156px;
 margin-bottom: 16px;
+display: inline-block;
 }
 
 .footer-logo-italic{
