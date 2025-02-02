@@ -217,9 +217,10 @@ margin-bottom: 72px;
     gap: 24px;
 }
 
-.team-item {
+.team-list-item {
 background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-container {
