@@ -53,6 +53,7 @@
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
 }
 
 .header-nav {
@@ -124,18 +125,18 @@ background-color: #2e2f42;
 padding: 188px 0;
 }
 
-.hero-wrapper {
-padding: 0 472px;   
+.container-wrapper {
+padding: 0 472px;
 }
 
 .hero-title {
+width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-text-align: center;
 letter-spacing: 0.02em;
 color: #fff;
-max-width: 496px;
+text-align: center;
 }
 
 .hero-btn {
@@ -165,7 +166,7 @@ padding: 120px 0
 .strategy-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 3 * 24px) / 4)
+    width: calc((100% - 3 * 24px) / 4);
     padding-right: 156px;
     padding-left: 156px;
 }
@@ -213,7 +214,7 @@ margin-bottom: 72px;
 
 .team-item {
 background-color: #FFFFFF;
-width: calc ((100% - 24px * 3) / 4);
+width: calc((100% - 24px * 3) / 4);
 border-radius: 0px 0px 4px 4px;
 }
 
