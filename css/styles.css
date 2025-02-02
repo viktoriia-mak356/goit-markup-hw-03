@@ -196,7 +196,7 @@ margin-top: 8px;
 
 .team {
 background-color: #f4f4fd;
-padding: 120px 0
+padding: 120px 0;
 }
 
 .team-title {
@@ -261,7 +261,6 @@ padding-bottom: 120px;
 
 .port-list {
     display: flex;
-    row-gap: 48px;
     flex-wrap: wrap;
     gap: 24px;
 }
