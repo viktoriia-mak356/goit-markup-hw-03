@@ -13,7 +13,7 @@
     }
 
     .container{
-        width: : 1158px;
+        max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -52,6 +52,7 @@
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .header-nav {
@@ -67,7 +68,7 @@ text-transform: uppercase;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4d5ae5;
-padding-left: 156px;
+padding: 24px;
 margin-right: 76px;
 }
 
@@ -78,7 +79,7 @@ font-family: "Raleway", sans-serif;
 
 .header-menu-list {
     display: flex;
-    margin-right: 332px;
+    gap: 40px;
 }
 
 .header-menu-link {
@@ -87,7 +88,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-right: 40px;
+padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -164,7 +165,7 @@ padding: 120px 0
 .strategy-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4)
     padding-right: 156px;
     padding-left: 156px;
 }
@@ -219,7 +220,6 @@ border-radius: 0px 0px 4px 4px;
 .team-container {
     padding: 32px 0;
 }
-
 .team-list-subtitle {
 font-weight: 500;
 font-size: 20px;
