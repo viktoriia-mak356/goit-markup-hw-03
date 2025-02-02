@@ -120,22 +120,24 @@ color:#404bbf;
     color: #404bbf;
 }
 
+/* Section 1 */
+
 .hero {
-background-color: #2e2f42;
-padding: 188px 0;
+    background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .hero-title {
-display: flex;
-max-width: 496px;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: #fff;
-text-align: center;
-margin: 0 auto;
-margin-bottom: 48px;
+    display: flex;
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -158,19 +160,22 @@ margin-bottom: 48px;
     background: #404bbf;
 }
 
+/* Section 2 */
+
 .strategy{
-padding: 120px 0;
+    padding: 120px 0;
 }
 
 .strategy-list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
     margin: 0;
     padding-left: 0;
 }
 
-.strategy-item {
-    flex-basis: calc((100% - 72px) / 4);
+.strategy-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .strategy-subtitle {
@@ -188,8 +193,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-margin-top: 8px;
 }
+
+/* Section 3 */
 
 .team {
 background-color: #f4f4fd;
@@ -243,6 +249,8 @@ color: #434455;
 padding-bottom: 32px;
 text-align: center;
 }
+
+/* Section 4 */
 
 .port{
 padding-top: 120px;
@@ -299,6 +307,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+/* Footer */
 
 .footer {
 background-color: #2e2f42;
