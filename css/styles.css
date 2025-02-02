@@ -137,6 +137,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: #fff;
 text-align: center;
+margin: 0 auto;
+margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -166,9 +168,12 @@ padding: 120px 0
 .strategy-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
     padding-right: 156px;
     padding-left: 156px;
+}
+
+.strategy-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .strategy-subtitle {
