@@ -130,7 +130,7 @@ padding: 0 472px;
 }
 
 .hero-title {
-width: 496px;
+max-width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -166,7 +166,7 @@ padding: 120px 0
 .strategy-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     padding-right: 156px;
     padding-left: 156px;
 }
@@ -214,7 +214,7 @@ margin-bottom: 72px;
 
 .team-item {
 background-color: #FFFFFF;
-width: calc((100% - 24px * 3) / 4);
+flex-basis: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
 
