@@ -200,6 +200,7 @@ padding: 120px 0;
 }
 
 .team-title {
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -212,14 +213,12 @@ margin-bottom: 72px;
 
 .team-list {
     display: flex;
-    margin-top: 72px;
-    padding-left: 157px;
+    flex-wrap: nowrap;
     gap: 24px;
 }
 
 .team-item {
 background-color: #FFFFFF;
-flex-basis: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
 
@@ -256,13 +255,13 @@ padding-bottom: 120px;
     max-width: 1128px;
     margin: o auto;
     width: 100%;
-    row-gap: 48px;
 }
 
 .port-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .port-list-item {
